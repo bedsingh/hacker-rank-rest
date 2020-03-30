@@ -1,0 +1,5 @@
+
+log:
+   file: hacker.log
+   level: debug
+   dir: logs

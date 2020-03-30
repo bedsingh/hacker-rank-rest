@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<Configuration status="DEBUG">
+	<Properties>
+		<property name="LOG_LEVEL">${sys:log.level:-info}</property>
+		<property name="LOG_DIR">${sys:log.dir:-logs}</property>
+		<property name="LOG_FILE">${sys:log.file:-hacker-app.log}</property>
+		<property name="FILE_PATTERN">%d{yyyy-MM-dd HH:mm:ss.SSS} [%-5level] [%t]%notEmpty{ [USR=%X{userId}]} [%c{1.}:%L] - %msg%n</property>
+		<property name="CONSOLE_PATTERN">%highlight{%d{yyyy-MM-dd HH:mm:ss.SSS} [%-5level] [%t]%notEmpty{ [USR=%X{userId}]} [%c{1.}:%L] - %msg%n}</property>
+	
+	</Properties>
+
+	<Appenders>
+		<Console name="LogToConsole" target="SYSTEM_OUT">
+			<PatternLayout pattern="${CONSOLE_PATTERN}" />
+		</Console>
+
+		<RollingFile name="LogToFile" fileName="${LOG_DIR}/${LOG_FILE}" filePattern="${LOG_DIR}/hacker-app.%d{yyyy-MM-dd}.log">
+			<PatternLayout>
+				<Pattern>${FILE_PATTERN}</Pattern>
+			</PatternLayout>
+			<Policies>
+			 	<!-- Causes a rollover if the log file is older than the current JVM's start time -->
+				<OnStartupTriggeringPolicy />
+				<!-- Causes a rollover once the date/time pattern no longer applies to the active file -->
+				<TimeBasedTriggeringPolicy />
+				<!-- Causes a rollover once the file reach size then pattern no longer applies to the active file -->
+				<SizeBasedTriggeringPolicy size="100 MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="10" />
+		</RollingFile>
+
+	</Appenders>
+
+	<Loggers>
+		<Logger name="com.java.hacker" level="${LOG_LEVEL}" additivity="false">
+			<AppenderRef ref="LogToFile" />
+			<AppenderRef ref="LogToConsole" />
+		</Logger>
+
+		<Logger name="org.springframework.boot" level="info" additivity="false">
+			<AppenderRef ref="LogToConsole" />
+		</Logger>
+
+		<Root level="error">
+			<AppenderRef ref="LogToFile" />
+			<AppenderRef ref="LogToConsole" />
+		</Root>
+		
+	</Loggers>
+
+</Configuration>
