@@ -5,8 +5,8 @@
 		<property name="LOG_LEVEL">${sys:log.level:-info}</property>
 		<property name="LOG_DIR">${sys:log.dir:-logs}</property>
 		<property name="LOG_FILE">${sys:log.file:-hacker-app.log}</property>
-		<property name="FILE_PATTERN">%d{yyyy-MM-dd HH:mm:ss.SSS} [%-5level] [%t]%notEmpty{ [USR=%X{userId}]} [%c{1.}:%L] - %msg%n</property>
-		<property name="CONSOLE_PATTERN">%highlight{%d{yyyy-MM-dd HH:mm:ss.SSS} [%-5level] [%t]%notEmpty{ [USR=%X{userId}]} [%c{1.}:%L] - %msg%n}</property>
+		<property name="FILE_PATTERN">%d{yyyy-MM-dd HH:mm:ss.SSS} [%-5level] [%t]%notEmpty{ [USR=%X{custId}]} [%c{1.}:%L] - %msg%n</property>
+		<property name="CONSOLE_PATTERN">%highlight{%d{yyyy-MM-dd HH:mm:ss.SSS} [%-5level] [%t]%notEmpty{ [USR=%X{custId}]} [%c{1.}:%L] - %msg%n}</property>
 	
 	</Properties>
 

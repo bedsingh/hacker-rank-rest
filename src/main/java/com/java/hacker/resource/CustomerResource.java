@@ -49,7 +49,7 @@ public class CustomerResource {
 	@GET
 	@Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
 	public Customers getAllCustomers() {
-		MDC.put("userId", "USR123");
+		MDC.put("custId", "ALL_CUST");
 		Customers customers = new Customers();
 		customers.setCustomers(new ArrayList<>(CustomerHelper.getCustomers().values()));
 
@@ -67,7 +67,7 @@ public class CustomerResource {
 		customer.setCustId(CustomerHelper.getCustomers().values().size()+1);
 		customer.setUri("/customer-mgmt/"+customer.getCustId());
 		CustomerHelper.getCustomers().put(customer.getCustId(), customer);
-
+		MDC.put("custId", String.valueOf(customer.getCustId()));
 		logger.debug("Added customer: {}", customer);
 
 		return Response.status(201).contentLocation(new URI(customer.getUri())).build();
@@ -106,6 +106,8 @@ public class CustomerResource {
 		temp.setLastName(customer.getLastName());
 		CustomerHelper.getCustomers().put(temp.getCustId(), temp);
 
+		logger.debug("Updated customer: {}", customer);
+		
 		return Response.status(200).entity(temp).build();
 	}
 
@@ -115,6 +117,7 @@ public class CustomerResource {
 		Customer customer =  CustomerHelper.getCustomers().get(id);
 		if(customer != null) {
 			CustomerHelper.getCustomers().remove(customer.getCustId());
+			logger.info("Customer deleted, CustomerId: {}", id);
 			return Response.status(200).build();
 		}
 		return Response.status(404).build();

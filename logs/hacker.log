@@ -1,63 +1,29 @@
-2020-03-29 13:45:03.123 [INFO ] [main] [c.j.h.HackerRankApplication:16] - *********************************************
-2020-03-29 13:45:03.133 [INFO ] [main] [c.j.h.HackerRankApplication:17] - ************ Stating Application ************
-2020-03-29 13:45:03.134 [INFO ] [main] [c.j.h.HackerRankApplication:18] - *********************************************
-2020-03-29 13:45:03.303 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:16] - *********************************************
-2020-03-29 13:45:03.304 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:17] - ************ Stating Application ************
-2020-03-29 13:45:03.305 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:18] - *********************************************
-2020-03-29 13:45:03.833 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:55] - Starting HackerRankApplication on Ved with PID 10500 (C:\E_DRIVE\Workspaces\STS4_Work\hacker-rank-rest\target\classes started by BED in C:\E_DRIVE\Workspaces\STS4_Work\hacker-rank-rest)
-2020-03-29 13:45:03.833 [DEBUG] [restartedMain] [c.j.h.HackerRankApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2020-03-29 13:45:03.833 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:651] - No active profile set, falling back to default profiles: default
-2020-03-29 13:45:05.945 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:61] - Started HackerRankApplication in 2.626 seconds (JVM running for 5.432)
-2020-03-29 13:45:05.945 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:21] - *********************************************
-2020-03-29 13:45:05.945 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:22] - ************ Started Application ************
-2020-03-29 13:45:05.945 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:23] - *********************************************
-2020-03-29 13:46:17.241 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:16] - *********************************************
-2020-03-29 13:46:17.241 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:17] - ************ Stating Application ************
-2020-03-29 13:46:17.242 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:18] - *********************************************
-2020-03-29 13:46:17.343 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:55] - Starting HackerRankApplication on Ved with PID 10500 (C:\E_DRIVE\Workspaces\STS4_Work\hacker-rank-rest\target\classes started by BED in C:\E_DRIVE\Workspaces\STS4_Work\hacker-rank-rest)
-2020-03-29 13:46:17.343 [DEBUG] [restartedMain] [c.j.h.HackerRankApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2020-03-29 13:46:17.343 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:651] - No active profile set, falling back to default profiles: default
-2020-03-29 13:46:17.864 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:61] - Started HackerRankApplication in 0.616 seconds (JVM running for 77.353)
-2020-03-29 13:46:17.864 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:21] - *********************************************
-2020-03-29 13:46:17.864 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:22] - ************ Started Application ************
-2020-03-29 13:46:17.864 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:23] - *********************************************
-2020-03-29 13:46:32.194 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:16] - *********************************************
-2020-03-29 13:46:32.194 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:17] - ************ Stating Application ************
-2020-03-29 13:46:32.199 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:18] - *********************************************
-2020-03-29 13:46:32.295 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:55] - Starting HackerRankApplication on Ved with PID 10500 (C:\E_DRIVE\Workspaces\STS4_Work\hacker-rank-rest\target\classes started by BED in C:\E_DRIVE\Workspaces\STS4_Work\hacker-rank-rest)
-2020-03-29 13:46:32.295 [DEBUG] [restartedMain] [c.j.h.HackerRankApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2020-03-29 13:46:32.295 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:651] - No active profile set, falling back to default profiles: default
-2020-03-29 13:46:32.771 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:61] - Started HackerRankApplication in 0.574 seconds (JVM running for 92.267)
-2020-03-29 13:46:32.771 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:21] - *********************************************
-2020-03-29 13:46:32.771 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:22] - ************ Started Application ************
-2020-03-29 13:46:32.771 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:23] - *********************************************
-2020-03-29 13:48:36.714 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:16] - *********************************************
-2020-03-29 13:48:36.714 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:17] - ************ Stating Application ************
-2020-03-29 13:48:36.715 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:18] - *********************************************
-2020-03-29 13:48:36.817 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:55] - Starting HackerRankApplication on Ved with PID 10500 (C:\E_DRIVE\Workspaces\STS4_Work\hacker-rank-rest\target\classes started by BED in C:\E_DRIVE\Workspaces\STS4_Work\hacker-rank-rest)
-2020-03-29 13:48:36.818 [DEBUG] [restartedMain] [c.j.h.HackerRankApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2020-03-29 13:48:36.819 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:651] - No active profile set, falling back to default profiles: default
-2020-03-29 13:48:37.258 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:61] - Started HackerRankApplication in 0.537 seconds (JVM running for 216.745)
-2020-03-29 13:48:37.260 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:21] - *********************************************
-2020-03-29 13:48:37.260 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:22] - ************ Started Application ************
-2020-03-29 13:48:37.260 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:23] - *********************************************
-2020-03-29 13:49:46.382 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:16] - *********************************************
-2020-03-29 13:49:46.383 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:17] - ************ Stating Application ************
-2020-03-29 13:49:46.383 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:18] - *********************************************
-2020-03-29 13:49:46.483 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:55] - Starting HackerRankApplication on Ved with PID 10500 (C:\E_DRIVE\Workspaces\STS4_Work\hacker-rank-rest\target\classes started by BED in C:\E_DRIVE\Workspaces\STS4_Work\hacker-rank-rest)
-2020-03-29 13:49:46.484 [DEBUG] [restartedMain] [c.j.h.HackerRankApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2020-03-29 13:49:46.485 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:651] - No active profile set, falling back to default profiles: default
-2020-03-29 13:49:46.914 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:61] - Started HackerRankApplication in 0.524 seconds (JVM running for 286.401)
-2020-03-29 13:49:46.916 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:21] - *********************************************
-2020-03-29 13:49:46.916 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:22] - ************ Started Application ************
-2020-03-29 13:49:46.916 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:23] - *********************************************
-2020-03-29 13:50:26.023 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:16] - *********************************************
-2020-03-29 13:50:26.023 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:17] - ************ Stating Application ************
-2020-03-29 13:50:26.034 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:18] - *********************************************
-2020-03-29 13:50:26.131 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:55] - Starting HackerRankApplication on Ved with PID 10500 (C:\E_DRIVE\Workspaces\STS4_Work\hacker-rank-rest\target\classes started by BED in C:\E_DRIVE\Workspaces\STS4_Work\hacker-rank-rest)
-2020-03-29 13:50:26.132 [DEBUG] [restartedMain] [c.j.h.HackerRankApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2020-03-29 13:50:26.132 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:651] - No active profile set, falling back to default profiles: default
-2020-03-29 13:50:26.558 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:61] - Started HackerRankApplication in 0.517 seconds (JVM running for 326.045)
-2020-03-29 13:50:26.560 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:21] - *********************************************
-2020-03-29 13:50:26.560 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:22] - ************ Started Application ************
-2020-03-29 13:50:26.560 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:23] - *********************************************
+2020-03-29 20:51:16.464 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:55] - Starting HackerRankApplication on Ved with PID 6296 (C:\E_DRIVE\Workspaces\STS4_Work\hacker-rank-rest\target\classes started by BED in C:\E_DRIVE\Workspaces\STS4_Work\hacker-rank-rest)
+2020-03-29 20:51:16.470 [DEBUG] [restartedMain] [c.j.h.HackerRankApplication:56] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-03-29 20:51:16.471 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:651] - No active profile set, falling back to default profiles: default
+2020-03-29 20:51:18.447 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:61] - Started HackerRankApplication in 2.694 seconds (JVM running for 5.5)
+2020-03-29 20:51:18.458 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:23] - *****************************************************
+2020-03-29 20:51:18.458 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:24] - ************ Hacker Application Started. ************
+2020-03-29 20:51:18.458 [INFO ] [restartedMain] [c.j.h.HackerRankApplication:25] - *****************************************************
+2020-03-29 20:52:27.927 [INFO ] [http-nio-8080-exec-1] [USR=ALL_CUST] [c.j.h.h.CustomerHelper:55] - Total Customer Data: 2
+2020-03-29 20:52:27.927 [DEBUG] [http-nio-8080-exec-1] [USR=ALL_CUST] [c.j.h.r.CustomerResource:56] - Get all customers: com.java.hacker.model.Customers@4ee766d4[customers=[com.java.hacker.model.Customer@281bdd10[CustId=1,FirstName=Ved,LastName=Singh,URI=/customer-mgmt/1], com.java.hacker.model.Customer@78f26dab[CustId=2,FirstName=Harry,LastName=Potter,URI=/customer-mgmt/2]]]
+2020-03-29 20:52:42.945 [INFO ] [http-nio-8080-exec-3] [c.j.h.h.CustomerHelper:36] - Already Exist, No. of customers: 2
+2020-03-29 20:52:42.946 [INFO ] [http-nio-8080-exec-3] [c.j.h.h.CustomerHelper:36] - Already Exist, No. of customers: 2
+2020-03-29 20:52:42.947 [DEBUG] [http-nio-8080-exec-3] [USR=3] [c.j.h.r.CustomerResource:71] - Added customer: com.java.hacker.model.Customer@870f10c[CustId=3,FirstName=Ved,LastName=Singh 3,URI=/customer-mgmt/3]
+2020-03-29 20:52:55.329 [INFO ] [http-nio-8080-exec-4] [c.j.h.h.CustomerHelper:36] - Already Exist, No. of customers: 3
+2020-03-29 20:52:55.330 [INFO ] [http-nio-8080-exec-4] [c.j.h.r.CustomerResource:86] - Get Customer for CustomerId: 2
+2020-03-29 20:53:25.261 [INFO ] [http-nio-8080-exec-5] [c.j.h.h.CustomerHelper:36] - Already Exist, No. of customers: 3
+2020-03-29 20:53:25.262 [INFO ] [http-nio-8080-exec-5] [c.j.h.h.CustomerHelper:36] - Already Exist, No. of customers: 3
+2020-03-29 20:53:25.263 [INFO ] [http-nio-8080-exec-5] [c.j.h.r.CustomerResource:120] - Customer deleted, CustomerId: 2
+2020-03-29 20:55:33.558 [INFO ] [http-nio-8080-exec-8] [USR=ALL_CUST] [c.j.h.h.CustomerHelper:36] - Already Exist, No. of customers: 2
+2020-03-29 20:55:33.559 [DEBUG] [http-nio-8080-exec-8] [USR=ALL_CUST] [c.j.h.r.CustomerResource:56] - Get all customers: com.java.hacker.model.Customers@68596142[customers=[com.java.hacker.model.Customer@281bdd10[CustId=1,FirstName=Ved,LastName=Singh,URI=/customer-mgmt/1], com.java.hacker.model.Customer@870f10c[CustId=3,FirstName=Ved,LastName=Singh 3,URI=/customer-mgmt/3]]]
+2020-03-29 20:55:39.847 [INFO ] [http-nio-8080-exec-9] [c.j.h.h.CustomerHelper:36] - Already Exist, No. of customers: 2
+2020-03-29 20:55:45.239 [INFO ] [http-nio-8080-exec-10] [c.j.h.h.CustomerHelper:36] - Already Exist, No. of customers: 2
+2020-03-29 20:55:45.240 [INFO ] [http-nio-8080-exec-10] [c.j.h.h.CustomerHelper:36] - Already Exist, No. of customers: 2
+2020-03-29 20:55:45.240 [DEBUG] [http-nio-8080-exec-10] [USR=3] [c.j.h.r.CustomerResource:71] - Added customer: com.java.hacker.model.Customer@6289b9de[CustId=3,FirstName=Ved,LastName=Singh 3,URI=/customer-mgmt/3]
+2020-03-29 20:55:47.069 [INFO ] [http-nio-8080-exec-2] [c.j.h.h.CustomerHelper:36] - Already Exist, No. of customers: 2
+2020-03-29 20:55:47.069 [INFO ] [http-nio-8080-exec-2] [c.j.h.h.CustomerHelper:36] - Already Exist, No. of customers: 2
+2020-03-29 20:55:47.070 [DEBUG] [http-nio-8080-exec-2] [USR=3] [c.j.h.r.CustomerResource:71] - Added customer: com.java.hacker.model.Customer@613d8105[CustId=3,FirstName=Ved,LastName=Singh 3,URI=/customer-mgmt/3]
+2020-03-29 20:55:56.945 [INFO ] [http-nio-8080-exec-1] [USR=ALL_CUST] [c.j.h.h.CustomerHelper:36] - Already Exist, No. of customers: 2
+2020-03-29 20:55:56.946 [DEBUG] [http-nio-8080-exec-1] [USR=ALL_CUST] [c.j.h.r.CustomerResource:56] - Get all customers: com.java.hacker.model.Customers@1fb5e374[customers=[com.java.hacker.model.Customer@281bdd10[CustId=1,FirstName=Ved,LastName=Singh,URI=/customer-mgmt/1], com.java.hacker.model.Customer@613d8105[CustId=3,FirstName=Ved,LastName=Singh 3,URI=/customer-mgmt/3]]]
+2020-03-29 20:56:00.397 [INFO ] [http-nio-8080-exec-3] [USR=3] [c.j.h.h.CustomerHelper:36] - Already Exist, No. of customers: 2

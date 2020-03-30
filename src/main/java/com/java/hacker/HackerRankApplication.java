@@ -11,17 +11,18 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 public class HackerRankApplication extends SpringBootServletInitializer  {
 
     private static final Logger logger = LogManager.getLogger(HackerRankApplication.class);
-
+    private static final String LINE1 = "*****************************************************"; 
+    
 	public static void main(String[] args) {
-		logger.info("*********************************************");
-		logger.info("************ Stating Application ************");
-		logger.info("*********************************************");
+		logger.info(LINE1);
+		logger.info("************ Hacker Application Starting ************");
+		logger.info(LINE1);
 		
 		SpringApplication.run(HackerRankApplication.class, args);
 		
-		logger.info("*********************************************");
-		logger.info("************ Started Application ************");
-		logger.info("*********************************************");
+		logger.info(LINE1);
+		logger.info("************ Hacker Application Started. ************");
+		logger.info(LINE1);
 	}
 
 	@Override

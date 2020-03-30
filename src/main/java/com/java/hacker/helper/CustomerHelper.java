@@ -13,6 +13,9 @@ package com.java.hacker.helper;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import com.java.hacker.model.Customer;
 
 /**************************************************************************************************************
@@ -23,11 +26,14 @@ import com.java.hacker.model.Customer;
 
 public class CustomerHelper {
 
+	private static final Logger logger = LogManager.getLogger(CustomerHelper.class);
+
 	private static Map<Integer, Customer> customers = new ConcurrentHashMap<>();
 	
 	public static Map<Integer, Customer> getCustomers() {
 
 		if(!customers.isEmpty()) {
+			logger.info("Already Exist, No. of customers: {}", customers.size());
 			return customers;
 		}
 
@@ -46,6 +52,7 @@ public class CustomerHelper {
 		customers.put(cust1.getCustId(), cust1);
 		customers.put(cust2.getCustId(), cust2);
 
+		logger.info("Total Customer Data: {}", customers.size());
 		return customers;
 	}
 }
